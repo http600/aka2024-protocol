@@ -11,3 +11,8 @@ type PlayItem struct {
     ViewCount int      `json:"view_count,omitempty"`
     AgeInfo   string   `json:"age_info,omitempty"`
 }
+
+type TimelineResponse struct {
+    Status       int        `json:"status,omitempty"`
+    TimelineList []PlayItem `json:"timeline_list,omitempty"`
+}
