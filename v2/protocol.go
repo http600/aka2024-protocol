@@ -16,3 +16,7 @@ type TimelineResponse struct {
     Status       int        `json:"status,omitempty"`
     TimelineList []PlayItem `json:"timeline_list,omitempty"`
 }
+
+type SyncTimedTextRequest struct {
+    ItemKey int `json:"item_key,omitempty"`
+}
