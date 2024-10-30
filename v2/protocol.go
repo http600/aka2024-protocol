@@ -20,3 +20,7 @@ type TimelineResponse struct {
 type SyncTimedTextRequest struct {
     ItemKey int `json:"item_key,omitempty"`
 }
+
+type QueryTimedTextRequest struct {
+    Term string `json:"term,omitempty"`
+}
