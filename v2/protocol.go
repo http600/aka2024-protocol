@@ -24,3 +24,7 @@ type SyncTimedTextRequest struct {
 type QueryTimedTextRequest struct {
     Term string `json:"term,omitempty"`
 }
+
+type Query4PlayRequest struct {
+    Term string `json:"term,omitempty"`
+}
